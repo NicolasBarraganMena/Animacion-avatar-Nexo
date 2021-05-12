@@ -24,5 +24,8 @@ public class AvatarController : MonoBehaviour
 
         transform.Rotate(0, x * Time.deltaTime * velocidadRotacion, 0);
         transform.Translate(0, 0, y * Time.deltaTime * velocidadMovimiento);
+
+        anim.SetFloat("Vel(x)", x);
+        anim.SetFloat("Vel(y)", y);
     }
 }
