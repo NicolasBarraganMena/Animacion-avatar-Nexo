@@ -5,8 +5,8 @@ using UnityEngine;
 public class AvatarController : MonoBehaviour
 {
 
-    public float velocidadMovimiento = 5f;
-    public float velocidadRotacion = 200f;
+    public float velocidadMovimiento;
+    public float velocidadRotacion;
     private Animator anim;
     public float x, y;
 
